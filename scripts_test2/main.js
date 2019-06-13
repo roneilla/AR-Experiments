@@ -52,7 +52,6 @@
          scene,
          arToolkitContext,
          'kaydenMarker/pattern-SharkArMap_9.patt');
-
  }
 
  function addAssets() {
