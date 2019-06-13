@@ -57,17 +57,15 @@
 
  function addAssets() {
      // add assets to marker roots here
-
-     //     marker1.root.add(coral.movieScreen);
      marker1.root.add(image1.sprite);
-//     marker2.root.add(image2.sprite);
-//     marker3.root.add(image3.sprite);
-//     marker4.root.add(image4.sprite);
-//     marker5.root.add(image5.sprite);
-//     marker6.root.add(image6.sprite);
-//     marker7.root.add(image7.sprite);
-//     marker8.root.add(image8.sprite);
-//     marker9.root.add(image9.sprite);
+     marker2.root.add(image2.sprite);
+     marker3.root.add(image3.sprite);
+     marker4.root.add(image4.sprite);
+     marker5.root.add(image5.sprite);
+     marker6.root.add(image6.sprite);
+     marker7.root.add(image7.sprite);
+     marker8.root.add(image8.sprite);
+     marker9.root.add(image9.sprite);
  }
 
  function assetsReady() {
