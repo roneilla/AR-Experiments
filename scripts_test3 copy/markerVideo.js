@@ -20,7 +20,7 @@ class markerVideo {
     }
 
     loadGeometry() {
-        this.movieGeometry = new THREE.PlaneGeometry(2, 1);
+        this.movieGeometry = new THREE.PlaneGeometry(1, 1);
         this.movieScreen = new THREE.Mesh(this.movieGeometry, this.movieMaterial);
         this.movieScreen.rotation.x = -Math.PI / 2;
         this.movieScreen.position.set(0, 0, 0);

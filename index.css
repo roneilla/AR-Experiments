@@ -11,64 +11,22 @@
      left: 0;
  }
 
+ img {
+     z-index: 1001;
+ }
+
  #button {
      padding: 0;
      margin: 0;
-     width: 100vw;
-     height: 12vh;
-     float: left;
-     position: relative;
-     text-align: center;
+     width: 25vw;
+     height: auto;
+     position: absolute;
+     bottom: 7vh;
+     left: 37.5vw;
+     visibility: hidden;
+
  }
 
- #button button {
-     margin-top: 90vh;
-     width: 20%;
-     height: 50%;
-     font-size: 100%;
-     color: white;
-     text-align: center;
-     z-index: 100;
- }
-
- #button:hover {
-     cursor: pointer;
- }
-
- #leftbutton:active {
-     background-color: green;
-     box-shadow: 0 5px #666;
-     transform: translateY(2px);
- }
-
- #rightbutton:active {
-     background-color: red;
-     box-shadow: 0 5px #666;
-     transform: translateY(2px);
- }
-
- #leftbutton {
-     width: 100%;
-     float: left;
-     background-color: rgba(150, 150, 150, 0.8);
-     position: relative;
-     margin-left: 15%;
-     border-radius: 5px;
-     line-height: 100%;
- }
-
- #rightbutton {
-     width: 100%;
-     float: right;
-     background-color: rgba(150, 150, 150, 0.8);
-     position: relative;
-     margin-right: 15%;
-     border-radius: 5px;
- }
-
- #middlebutton {
-     width: 100%;
-     background-color: rgba(150, 150, 150, 0.8);
-     border-radius: 5px;
-     position: inherit;
+ #button:active {
+     opacity: 0.7;
  }

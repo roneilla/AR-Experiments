@@ -9,5 +9,20 @@ function animate(nowMsec) {
     });
 
     assetsReady();
-    visibility();
+
+    visibilityCheck();
+
+    if (pc >= 2) {
+        video.pause();
+        pc = 0;
+    }
+
+    if (pc != 1) {
+        btext = "PLAY";
+        var b = document.getElementById('middlebutton');
+        b.setAttribute('content', 'PLAY');
+        b.setAttribute('class', 'btn');
+        b.innerHTML = 'PLAY';
+
+    }
 }

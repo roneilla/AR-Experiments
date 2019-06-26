@@ -19,24 +19,40 @@
      marker1 = new Marker(
          scene,
          arToolkitContext,
-         'hiro.patt');
+         'illustrationMarker/a.patt');
+
+     marker2 = new Marker(
+         scene,
+         arToolkitContext,
+         'illustrationMarker/aa.patt');
+
+     marker3 = new Marker(
+         scene,
+         arToolkitContext,
+         'illustrationMarker/b.patt');
  }
 
  function addAssets() {
      // add assets to marker roots here
-     marker1.root.add(image1.sprite);
+     marker1.root.add(coral.movieScreen);
+     marker2.root.add(crab.movieScreen);
+     marker3.root.add(shark.movieScreen);
  }
 
  function assetsReady() {
-
-     // call the assets' ready function in here
-     //coral.ready();
-
+     // call the video assets' ready function in here
+     coral.ready();
+     crab.ready();
+     shark.ready();
  }
 
- function visibilityCheck() {
+ function visibility() {
      if (marker1.root.visible === true) {
-         console.log("marker 1 visible");
+         playButton.style.visibility = "visible";
+
+         //console.log("marker 1 visible");
+     } else {
+         playButton.style.visibility = "hidden";
      }
 
  }

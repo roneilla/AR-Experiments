@@ -5,11 +5,9 @@
       opacity: 1
   };
 
+  var btext = document.getElementsByTagName("BUTTON")[1].textContent;
+
   var pc = 0;
-
-  // button variable
-
-  var playButton = document.getElementById("button");
 
   // marker variables
   var marker1, marker2, marker3, marker4, marker5, marker6, marker7, marker8, marker9;
