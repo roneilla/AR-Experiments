@@ -4,4 +4,4 @@
 
 For more information, view:
 
-roneilla.com/portfolio/mural.html
+roneilla.com/mural.html
